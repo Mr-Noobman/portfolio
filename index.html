@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MHK | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER & NAVIGATION ================= -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="nav-logo"><img src="./Files/icon 2.png" alt="Your Logo" /></a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-links">
+        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+
+        <!-- CV Download Button -->
+        <li class="nav-item">
+          <a href="./Files/My_CV.pdf" class="nav-link cv-button" download>Download CV</a>
+        </li>
+      </ul>
+
+      <ul class="nav-links">
+        <li class="nav-item">
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-moon"></i> </button>
+        </li>
+        </button>
+      </ul>
+
+      <!-- Hamburger Menu (for mobile) -->
+      <button class="hamburger-menu" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Mobile Navigation Links -->
+    <div class="mobile-nav-links">
+      <a href="#home" class="mobile-nav-link">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#projects" class="mobile-nav-link">Projects</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+      <div class="mobile-nav-links">
+        <a href="./Files/My_CV.pdf" class="mobile-nav-link" download>Download CV</a>
+
+        <button id="mobile-theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-sun"></i> <i class="fa-solid fa-moon"></i> </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO / HOME SECTION ================= -->
+  <div class="page-wrapper">
+    <div class="container">
+      <main>
+        <section id="home" class="hero-section">
+          <div class="hero-content-wrapper">
+            <div class="hero-text-content hidden fade-in-from-left">
+              <h1 class="hero-title">
+                <span class="intro-text">
+                  <span class="wavy-text">
+                    <span>H</span><span>e</span><span>l</span><span>l</span><span>o</span><span>,</span>
+                  </span>
+                  I am
+                </span>
+                Meheraf Hasan Khan
+              </h1>
+              <p class="hero-subtitle" id="typing-subtitle">&nbsp;</p>
+              <div class="social-links">
+                <a href="https://github.com/Mr-Noobman" target="_blank" title="GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mhk007/" target="_blank" title="LinkedIn"><i
+                    class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/mhk.rudro/" target="_blank" title="Facebook"><i
+                    class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/+8801988243687" target="_blank" title="WhatsApp"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+              </div>
+            </div>
+            <div class="profile-pic-container hidden fade-in-from-right">
+              <div class="profile-pic-frame-wrapper">
+                <img src="./Files/Profile.jpg" alt="Your Profile Picture" class="profile-pic" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= SKILLS SECTION ================= -->
+        <section id="skills" class="section skills-section">
+          <div class="skills-grid">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid"></div>
+
+            <!-- Skill Category: Languages -->
+            <div class="skill-row hidden fade-in-from-left">
+              <h3 class="skill-category">Language</h3>
+              <div class="skills-slider">
+                <div class="skills-track">
+                  <span>C</span><span>C++</span><span>Java</span><span>PHP</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>C</span><span>C++</span><span>Java</span><span>PHP</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>C</span><span>C++</span><span>Java</span><span>PHP</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>C</span><span>C++</span><span>Java</span><span>PHP</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Category: Frameworks & Tools -->
+            <div class="skill-row hidden fade-in-from-left">
+              <h3 class="skill-category">Frameworks & Tools</h3>
+              <div class="skills-slider">
+                <div class="skills-track" style="animation-duration: 20s">
+                  <span>ASP.NET MVC</span><span>React</span><span>Bootstrap</span><span>Figma</span><span>GitHub</span>
+                  <span>ASP.NET MVC</span><span>React</span><span>Bootstrap</span><span>Figma</span><span>GitHub</span>
+                  <span>ASP.NET MVC</span><span>React</span><span>Bootstrap</span><span>Figma</span><span>GitHub</span>
+                  <span>ASP.NET MVC</span><span>React</span><span>Bootstrap</span><span>Figma</span><span>GitHub</span>
+                  <span>ASP.NET MVC</span><span>React</span><span>Bootstrap</span><span>Figma</span><span>GitHub</span>
+                  <span>ASP.NET MVC</span><span>React</span><span>Bootstrap</span><span>Figma</span><span>GitHub</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-row hidden fade-in-from-left">
+              <h3 class="skill-category">Databases</h3>
+              <div class="skills-slider">
+                <div class="skills-track" style="animation-duration: 18s">
+                  <span>MSSQL</span><span>MySQL</span><span>Oracle</span><span>MSSQL</span><span>MySQL</span><span>Oracle</span><span>MSSQL</span><span>MySQL</span><span>Oracle</span><span>MSSQL</span><span>MySQL</span><span>Oracle</span><span>MSSQL</span><span>MySQL</span><span>Oracle</span><span>MSSQL</span><span>MySQL</span><span>Oracle</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-row hidden fade-in-from-left">
+              <h3 class="skill-category">Digital Marketing</h3>
+              <div class="skills-slider">
+                <div class="skills-track" style="animation-duration: 18s">
+                  <span>Wordpress</span><span>Website Seo</span><span>Youtube Seo</span><span>Social Media
+                    Marketing</span><span>Wordpress</span><span>Website Seo</span><span>Youtube Seo</span><span>Social
+                    Media Marketing</span><span>Wordpress</span><span>Website Seo</span><span>Youtube
+                    Seo</span><span>Social Media Marketing</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-row hidden fade-in-from-left">
+              <h3 class="skill-category">Others</h3>
+              <div class="skills-slider">
+                <div class="skills-track" style="animation-duration: 15s">
+                  <span>Stripe</span><span>AJAX</span><span>Rotativa</span><span>Razor Pages</span>
+                  <span>Vite</span>
+                  <span>Stripe</span><span>AJAX</span><span>Rotativa</span><span>Razor Pages</span>
+                  <span>Vite</span>
+                  <span>Stripe</span><span>AJAX</span><span>Rotativa</span><span>Razor Pages</span>
+                  <span>Vite</span>
+                  <span>Stripe</span><span>AJAX</span><span>Rotativa</span><span>Razor Pages</span>
+                  <span>Vite</span>
+                  <span>Stripe</span><span>AJAX</span><span>Rotativa</span><span>Razor Pages</span>
+                  <span>Vite</span>
+                  <span>Stripe</span><span>AJAX</span><span>Rotativa</span><span>Razor Pages</span>
+                  <span>Vite</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= ABOUT SECTION ================= -->
+        <section id="about" class="section about-section">
+          <div class="about-wrapper">
+
+            <!-- About Me Text -->
+            <div class="about-left hidden fade-in-from-left">
+              <h2 class="section-title">About Me</h2>
+              <div class="about-content">
+                <p>
+                  As a Frontend Developer, I specialize in bringing digital visions to life by building beautiful and
+                  interactive user interfaces. My passion lies in transforming creative designs into clean, responsive,
+                  and high-performance websites. I focus on writing efficient code to ensure a seamless and engaging
+                  user experience across all devices, with an eye for pixel-perfect detail and intuitive design. My
+                  full-stack capabilities include hands-on experience with React, ASP.NET MVC, C#, and JavaScript,
+                  delivering robust solutions like full-featured inventory
+                  systems and project management platforms.
+                </p>
+                <p>
+                  A great website is only effective if people can find it. I
+                  specialize in closing that gap. Using data-driven SEO and
+                  strategic marketing, I boost online visibility, attract
+                  qualified organic traffic, and turn visitors into loyal
+                  customers.
+                </p>
+              </div>
+            </div>
+
+            <!-- Work Experience & Education -->
+            <div class="about-right hidden fade-in-from-right">
+              <div class="experience-item">
+                <h3>Work Experience</h3>
+                <h4>Full Stack Developer</h4>
+                <h5>Academic & Personal Projects | 2023 - Present</h5>
+                <p>
+                  Worked on a variety of projects including e-commerce
+                  platforms, inventory management systems, and project
+                  management tools. Focused on building scalable solutions with
+                  secure authentication, data-driven dashboards, and clean
+                  UI/UX.
+                </p>
+              </div>
+
+              <!-- Education -->
+              <div class="education-item">
+                <h3>Education</h3>
+                <div class="education-scrollable-content">
+                  <div class="education-entry">
+                    <h4>BSc in Computer Science & Engineering</h4>
+                    <h5>American International University-Bangladesh (AIUB)</h5>
+                    <p>
+                      <strong>Major:</strong> Information Systems |
+                      <strong>CGPA:</strong> 3.38
+                    </p>
+                  </div>
+                  <div class="education-entry">
+                    <h4>Higher Secondary Certificate (HSC)</h4>
+                    <h5>Gopalpur Govt. College</h5>
+                    <p>
+                      <strong>GPA:</strong> 5.00 | <strong>Year:</strong> 2020
+                    </p>
+                  </div>
+                  <div class="education-entry">
+                    <h4>Secondary School Certificate (SSC)</h4>
+                    <h5>Suti V.M Pilot Model Government High School</h5>
+                    <p>
+                      <strong>GPA:</strong> 4.78 | <strong>Year:</strong> 2018
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= PROJECTS SECTION ================= -->
+        <section id="projects">
+          <h2 class="section-title">Projects</h2>
+
+          <!-- Project Filter Buttons -->
+          <div class="project-filters hidden fade-in-from-bottom">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="fullstack">
+              Full-Stack
+            </button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+          </div>
+
+          <!-- Project Cards (Slider/Grid) -->
+          <div class="project-viewport">
+            <div class="project-slider-container hidden fade-in-from-bottom">
+              <div class="project-grid">
+
+                <!-- Example Project Card -->
+                <div class="project-card" data-category="fullstack" data-title="Inventory & Sales Management System"
+                  data-github-link="https://github.com/Mr-Noobman/Sales-Management-System" data-live-link="#"
+                  data-images="./Files/isms1.webp,./Files/isms2.webp,./Files/isms3.webp,./Files/isms4.webp"
+                  data-about="This system manages product stock, sales records, and financial insights. Managers can create salesperson accounts, add products with pricing, discounts, and categories, and monitor profits through analytics dashboards. Salespersons record transactions via an intuitive sale form with AJAX-powered product search, generate invoices, and track their KPIs. The system updates inventory in real time, generates downloadable invoices, and allows managers to view filterable reports with charts and raw data. Built with a clean Razor + Bootstrap frontend for usability."
+                  data-features="Role-based dashboards,Real-time stock updates,PDF Invoice generation,Filterable analytics reports"
+                  data-tech="ASP.NET MVC,SQL Server,Razor Pages,Bootstrap (SB Admin 2 theme),AJAX + Select2,Toastr,Rotativa PDF Generator,REST APIS"
+                  data-challenges="Implementing real-time product search and generating professional PDF reports were key challenges solved with AJAX and Rotativa PDF integration."
+                  data-short-description="A robust system for managing product inventory and sales, featuring role-based dashboards and real-time updates.">
+                  <div class="project-image">
+                    <img src="./Files/isms1.webp" alt="Inventory System Preview" />
+                  </div>
+
+                  <!-- Project Header with Title & GitHub Link -->
+                  <div class="project-content">
+                    <div class="project-header">
+                      <div>
+                        <span class="project-label">FULL-STACK</span>
+                        <h3 class="project-title">
+                          Inventory & Sales Management
+                        </h3>
+                      </div>
+                      <a href="https://github.com/Mr-Noobman/Sales-Management-System" class="github-link" target="_blank"
+                        aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <p class="project-description">
+                      A robust system for managing product inventory and sales,
+                      featuring role-based dashboards and real-time updates.
+                    </p>
+                    <div class="project-tags">
+                      <span class="tag">ASP.NET MVC</span>
+                      <span class="tag">SQL Server</span>
+                      <span class="tag">Bootstrap</span>
+                      <span class="tag">+2</span>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                <div class="project-card" data-category="other" data-title="Weather Dashboard App"
+                  data-github-link="https://github.com/Mr-Noobman/Weather-WEB-APP" data-live-link="https://weatherwebapp-rose.vercel.app/"
+                  data-images="./Files/w1.png,./Files/w2.png,./Files/w3.png,./Files/w4.png"
+                  data-about="A simple and clean weather dashboard that provides real-time weather data for any city using the OpenWeatherMap API."
+                  data-features="Real-time weather data,5-day forecast,Search by city name,Geolocation support"
+                  data-tech="JavaScript (ES6),HTML5,CSS3,OpenWeatherMap API"
+                  data-challenges="Handling asynchronous API calls gracefully and providing clear error messages for invalid city names or network issues."
+                  data-short-description="A clean weather dashboard that provides real-time weather data for any city using the OpenWeatherMap API.">
+                  <div class="project-image">
+                    <img src="./Files/w1.png" alt="Weather App Preview" />
+                  </div>
+                  <div class="project-content">
+                    <div class="project-header">
+                      <div>
+                        <span class="project-label">OTHER</span>
+                        <h3 class="project-title">Weather Dashboard</h3>
+                      </div>
+                      <a href="https://github.com/Mr-Noobman/Weather-WEB-APP" class="github-link" target="_blank"
+                        aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <p class="project-description">
+                      A clean weather dashboard that provides real-time weather
+                      data for any city using the OpenWeatherMap API.
+                    </p>
+                    <div class="project-tags">
+                      <span class="tag">JavaScript</span>
+                      <span class="tag">API</span>
+                      <span class="tag">HTML5</span>
+                      <span class="tag">CSS3</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-card" data-category="fullstack" data-title="TeamSync - Project Management"
+                  data-github-link="https://github.com/Mr-Noobman/TeamSync" data-live-link="#"
+                  data-images="./Files/not.jpg"
+                  data-about="A project lifecycle management platform supporting Admin, Project Manager, and Developer roles. Built with Core PHP and MySQL."
+                  data-features="Task assignment,Progress tracking,Team collaboration tools,Reporting dashboard"
+                  data-tech="Core PHP,MySQL,AJAX,JavaScript,Bootstrap"
+                  data-challenges="Creating a real-time notification system for task updates and ensuring data integrity across different user roles."
+                  data-short-description="A project management platform for teams, supporting multiple user roles with features like task assignment and progress tracking.">
+                  <div class="project-image">
+                    <img src="./Files/not.jpg" alt="TeamSync App Preview" />
+                  </div>
+                  <div class="project-content">
+                    <div class="project-header">
+                      <div>
+                        <span class="project-label">FULL-STACK</span>
+                        <h3 class="project-title">TeamSync Platform</h3>
+                      </div>
+                      <a href="https://github.com/Mr-Noobman/TeamSync" class="github-link" target="_blank"
+                        aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <p class="project-description">
+                      A project management platform for teams, supporting multiple
+                      user roles with features like task assignment and progress
+                      tracking.
+                    </p>
+                    <div class="project-tags">
+                      <span class="tag">PHP</span>
+                      <span class="tag">MySQL</span>
+                      <span class="tag">AJAX</span>
+                      <span class="tag">+2</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="project-card" data-category="frontend" data-title="Landing Page for SaaS"
+                  data-github-link="https://github.com/your-repo" data-live-link="#"
+                  data-images="./Files/project-saas.jpg"
+                  data-about="A modern and responsive landing page for a fictional SaaS product, designed to maximize conversions."
+                  data-features="Responsive design,Animated call-to-actions,Testimonial slider,Pricing table"
+                  data-tech="HTML5,CSS3,JavaScript,GSAP"
+                  data-challenges="Crafting compelling animations with GSAP that draw attention to key features without harming page load performance."
+                  data-short-description="A modern, responsive, and conversion-focused landing page for a fictional SaaS product, featuring smooth animations.">
+                  <div class="project-image">
+                    <img src="./Files/project-saas.jpg" alt="SaaS Landing Page Preview" />
+                  </div>
+                  <div class="project-content">
+                    <div class="project-header">
+                      <div>
+                        <span class="project-label">FRONTEND</span>
+                        <h3 class="project-title">SaaS Landing Page</h3>
+                      </div>
+                      <a href="https://github.com/your-repo" class="github-link" target="_blank"
+                        aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <p class="project-description">
+                      A modern, responsive, and conversion-focused landing page
+                      for a fictional SaaS product, featuring smooth animations.
+                    </p>
+                    <div class="project-tags">
+                      <span class="tag">HTML5</span>
+                      <span class="tag">CSS3</span>
+                      <span class="tag">JavaScript</span>
+                      <span class="tag">GSAP</span>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+            <!-- Project Slider Navigation -->
+            <button id="prev-btn" class="nav-btn">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button id="next-btn" class="nav-btn">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </section>
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section id="contact" class="section contact-section">
+          <h2 class="section-title">Contact</h2>
+          <p class="contact-text">
+            Feel free to get in touch! You can use the form below or find me on
+            my social media.
+          </p>
+
+          <!-- Contact Info Links -->
+          <div class="contact-content-wrapper">
+            <div class="contact-info-left hidden fade-in-from-left">
+              <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-icon-link">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+              </a>
+              <a href="https://github.com/yourprofile" target="_blank" class="contact-icon-link">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="https://facebook.com/yourprofile" target="_blank" class="contact-icon-link">
+                <i class="fa-brands fa-facebook"></i> Facebook
+              </a>
+              <div id="copy-email-wrapper" class="contact-icon-link" title="Click to copy email">
+                <i class="fa-solid fa-envelope"></i>
+                <span id="email-text">rudrokhan2000@gmail.com</span>
+                <span id="copy-tooltip">Copied!</span>
+              </div>
+              <a href="tel:+8801988243687" class="contact-icon-link">
+                <i class="fa-solid fa-phone"></i> +8801988243687
+              </a>
+              <a href="https://wa.me/+8801988243687" target="_blank" class="contact-icon-link">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+              </a>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-right hidden fade-in-from-right">
+              <form id="contact-form" action="https://formspree.io/f/xgvljobw" method="POST">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div id="form-status"></div>
+                <button type="submit" class="submit-button">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <h4>Meheraf Hasan Khan</h4>
+          <p>FullStack Developer</p>
+        </div>
+        <div class="footer-right">
+          <p>&copy; 2025 All Rights Reserved.</p>
+          <p>Created with HTML, CSS, and JavaScript</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ================= PROJECT MODAL (POPUP) ================= -->
+
+  <div id="project-modal" class="modal-container">
+    <div class="modal-content">
+
+      <!-- Close Button -->
+      <span class="close-button">&times;</span>
+
+      <!-- Modal Image Slider -->
+      <div class="modal-image-slider">
+        <div class="slider-inner"></div>
+        <button class="slider-nav prev-slide">&leftarrow;</button>
+        <button class="slider-nav next-slide">&rightarrow;</button>
+      </div>
+
+      <!-- Modal Details -->
+      <div class="modal-body">
+        <h2 class="modal-title">Project Title Goes Here</h2>
+        <div class="modal-links"></div>
+        <h3>About the Project</h3>
+        <p class="modal-about"></p>
+        <div class="modal-details-grid">
+          <div>
+            <h3>Key Features</h3>
+            <ul class="modal-features"></ul>
+          </div>
+          <div>
+            <h3>Technologies</h3>
+            <ul class="modal-tech"></ul>
+          </div>
+        </div>
+        <h3>Challenges & Solutions</h3>
+        <p class="modal-challenges"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
